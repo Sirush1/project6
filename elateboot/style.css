@@ -1,6 +1,11 @@
+.html
+{
+    font-family: 'montserrat';
+}
 .navbar
 {
     padding:0px !important;
+
 }
 .navbar-brand img
 {
@@ -20,7 +25,8 @@ filter: contrast(95%);
 }
 ul li a
 {
-    font-size: 12px;
+    font-size: 10px;
+    font-family: 'montserrat';
 }
 .a::before {
     content: url('img/image3.png')!important;
@@ -28,20 +34,24 @@ ul li a
   }
   .p
   {
-    font-size: 12px;   
+    font-size: 12px;  
+    font-family: 'montserrat'; 
   }
   .span
   {
       margin:0 auto;
-      font-size: 12px;  
+      font-size: 12px; 
+      font-family: 'montserrat'; 
   }
   .h-100 p
   {
-    font-size: 12px;      
+    font-size: 12px;    
+    font-family: 'montserrat';  
   }
   h2
   {
-    font-size: 20px;    
+    font-size: 20px;   
+    font-family: 'montserrat'; 
   }
   .row
   {
@@ -60,22 +70,25 @@ ul li a
   .btn span
   {
       font-size: 16px;
+      font-family: 'montserrat';
   }
   .p1
   {
       font-size:14px ;
+      font-family: 'montserrat';
   }
   .d-flex
   {
-    background-image: url('img/image1.png');
-    background-repeat:no-repeat;
     filter:contrast(95%);
-    width:180px;
-    height:40px;
+    
+  }
+  .col-md-6 img
+  {
+      border: 0px;
   }
   .py-5 ul
   {
-      line-height: 22px;
+      line-height: 10px;
   }
   .row-r1
   {
@@ -91,9 +104,11 @@ ul li a
   }
   .p2
 {
-    font-size:14px ;
+    font-size:12px ;
+    font-family: 'montserrat';
+    display:inline-block;
 }
-.col5 ul li img
+.col5 
 {
     filter:contrast(0%); 
 }
